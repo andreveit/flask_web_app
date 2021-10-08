@@ -6,9 +6,9 @@ Check out the deployed app on http://ec2-3-21-127-61.us-east-2.compute.amazonaws
 
 ## About The Project
 
-Following along a few tutorials in order to dive deeper in API developing and deploying.
+Following along a few tutorials in order to dive deeper in API developmetn and deployment.
 
-It was built a simulation of an e-commerce from end-to-end, in a very simplified manner
+It was built a simulation of an e-commerce from end-to-end, in a simplified manner.
 
 <br>
 
@@ -16,6 +16,7 @@ It was built a simulation of an e-commerce from end-to-end, in a very simplified
 
 - Flask
 - Gunicorn
+- Bootstrap
 - Docker
 - Nginx (reverse proxy)
 - Sqlite (development data base)
