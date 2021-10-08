@@ -6,7 +6,7 @@ Check out the deployed app on http://ec2-3-21-127-61.us-east-2.compute.amazonaws
 
 ## About The Project
 
-Following along a few tutorials in order to dive deeper in API developmetn and deployment.
+Following along a few tutorials in order to dive deeper in API development and deployment.
 
 It was built a simulation of an e-commerce from end-to-end, in a simplified manner.
 
