@@ -1,0 +1,62 @@
+
+
+
+
+
+{% extends 'base.html' %}
+
+{% block title %} 
+
+    Register 
+
+{% endblock %}
+
+{% block content %} 
+<br>
+<form method="POST" class="form-register" style='color:white'>
+    {{ form.hidden_tag() }}
+    <div class="container">
+        <body class="text-center">
+            <img class="mb-4" src="https://img.freepik.com/free-vector/cute-shopping-cart-logo_23-2148453859.jpg?size=338&ext=jpg">
+            <h1 class="h3 mb-3 font-weight-normal">
+              Create your Account
+            </h1>
+        </body>
+        <br>
+
+        {{ form.username.label()}}
+        {{ form.username(class="form-control", placeholder="User Name")}}
+        <br>
+        {{ form.email.label()}}
+        {{ form.email(class="form-control", placeholder="Email Addres")}}
+        <br>
+        {{ form.password1.label()}}
+        {{ form.password1(class="form-control", placeholder="Password")}}
+        <br>
+        {{ form.password2.label()}}
+        {{ form.password2(class="form-control", placeholder="Confirm passoword")}}
+        
+        <br>
+        <br>
+        {{ form.submit(class="btn btn-lg btn-block btn-primary", placeholder="Confirm passoword")}}
+
+        <br>
+        
+        <br>
+
+
+        <div class="checkbox mb-3">
+            <h6>Already have an account?</h6>
+            <a class="btn btn-sm btn-secondary" href="{{ url_for('login') }}">Login</a>
+        </div>
+        
+        
+    </div>
+</form>
+
+<br>
+
+<br>
+
+
+{% endblock %}
