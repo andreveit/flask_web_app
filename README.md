@@ -1,14 +1,12 @@
 # Flask Web App 
 
-Check out the deployed app on http://ec2-3-21-127-61.us-east-2.compute.amazonaws.com/
-
----
-
 ## About The Project
 
-Following along a few tutorials in order to dive deeper in API development and deployment.
+Built a toy Ecomm website, aiming to improve API Development and Web Development skills.
+The application has a registration and login system for users, keeping track of the user's budget and Items purchased.
 
-It was built a simulation of an e-commerce from end-to-end, in a simplified manner.
+The system has three services, the main Flask app, an Nginx server setup as a reverse proxy and a Postgres database.
+They all run in docker containers and were deploy on an EC2 machine.
 
 <br>
 
@@ -18,7 +16,7 @@ It was built a simulation of an e-commerce from end-to-end, in a simplified mann
 - Gunicorn
 - Bootstrap
 - Docker
-- Nginx (reverse proxy)
+- Nginx (working as a reverse proxy)
 - Sqlite (development data base)
 - Prosgres (production data base)
 
@@ -28,11 +26,4 @@ It was built a simulation of an e-commerce from end-to-end, in a simplified mann
 
 ![image](./architecture.jpg)
 
-<br>
 
-<br>
-
-### Credits
-
-Credits to Jim form JimShapedCoding youtube channel<br>
-https://www.youtube.com/channel/UCU8d7rcShA7MGuDyYH1aWGg/featured

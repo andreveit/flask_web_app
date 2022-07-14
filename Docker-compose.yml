@@ -36,3 +36,4 @@ networks:
   flask_network:
 volumes:
   postgres_data:
+  
